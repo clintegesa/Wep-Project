@@ -1,0 +1,732 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(image/back.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 0%;
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.nav-bar1 h1 {
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    font-size: 38px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.nav-bar1 h2 {
+    position: absolute;
+    top: 8%;
+    left: 28%;
+    font-size: 39px;
+    color: black;
+    font-weight: 800;
+}
+
+.nav-bar2 h2 {
+    position: absolute;
+    top: -8%;
+    left: 5%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-bar2 p {
+    position: absolute;
+    top: 37%;
+    left: 5%;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.nav-bar2 input[type="submit"] {
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    width: 120px;
+    height: 30px;
+    background-color: #fff;
+    color: black;
+}
+
+.nav-bar1 {
+    position: absolute;
+    top: 0%;
+    background-color: purple;
+    width: 20%;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.nav-bar2 {
+    position: absolute;
+    top: 0%;
+    background-color: purple;
+    width: 42%;
+    left: 58%;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.nav-bar3 {
+    position: absolute;
+    top: 8%;
+    background-color: white;
+    width: 100%;
+    height: 55px;
+}
+
+.nav-bar3 a i {
+    position: absolute;
+    top: 8%;
+    left: 90%;
+}
+
+.menu i {
+    position: absolute;
+    top: 15%;
+    left: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Style the search field */
+
+form.example input[type=text] {
+    position: absolute;
+    width: 200px;
+    top: 8%;
+    left: 20%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 40%;
+    background: #f1f1f1;
+}
+
+
+/* Style the submit button */
+
+form.example button {
+    position: absolute;
+    left: 50%;
+    width: 10%;
+    top: 8%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+
+/* Clear floats */
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nav-bar4 {
+    position: absolute;
+    top: 27%;
+    background-color: white;
+    width: 25%;
+    height: 180px;
+    left: 5%;
+    border: 2px solid black;
+}
+
+.nav-bar4 img {
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    background-color: blue;
+}
+
+.nav-bar4 h1 {
+    position: absolute;
+    left: 210px;
+    top: 20%;
+    color: blue;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar4 h2 {
+    position: absolute;
+    left: 210px;
+    top: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar4 a i {
+    position: absolute;
+    left: 220px;
+    top: 58%;
+}
+
+.nav-bar5 {
+    position: absolute;
+    top: 27%;
+    background-color: white;
+    width: 25%;
+    height: 180px;
+    left: 35%;
+    border: 2px solid black;
+}
+
+.nav-bar5 img {
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    background-color: blue;
+}
+
+.nav-bar5 h1 {
+    position: absolute;
+    left: 210px;
+    top: 20%;
+    color: blue;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar5 h2 {
+    position: absolute;
+    left: 210px;
+    top: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar5 a i {
+    position: absolute;
+    left: 220px;
+    top: 58%;
+}
+
+.nav-bar6 {
+    position: absolute;
+    top: 27%;
+    background-color: white;
+    width: 25%;
+    height: 180px;
+    left: 65%;
+    border: 2px solid black;
+}
+
+.nav-bar6 img {
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    background-color: blue;
+}
+
+.nav-bar6 h1 {
+    position: absolute;
+    left: 210px;
+    top: 20%;
+    color: blue;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar6 h2 {
+    position: absolute;
+    left: 210px;
+    top: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar6 a i {
+    position: absolute;
+    left: 220px;
+    top: 58%;
+}
+
+.nav-bar7 {
+    position: absolute;
+    top: 60%;
+    background-color: white;
+    width: 25%;
+    height: 180px;
+    left: 5%;
+    border: 2px solid black;
+}
+
+.nav-bar7 img {
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    background-color: blue;
+}
+
+.nav-bar7 h1 {
+    position: absolute;
+    left: 210px;
+    top: 20%;
+    color: blue;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar7 h2 {
+    position: absolute;
+    left: 210px;
+    top: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar7 a i {
+    position: absolute;
+    left: 220px;
+    top: 58%;
+}
+
+.nav-bar8 {
+    position: absolute;
+    top: 60%;
+    background-color: white;
+    width: 25%;
+    height: 180px;
+    left: 35%;
+    border: 2px solid black;
+}
+
+.nav-bar8 img {
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    background-color: blue;
+}
+
+.nav-bar8 h1 {
+    position: absolute;
+    left: 210px;
+    top: 20%;
+    color: blue;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar8 h2 {
+    position: absolute;
+    left: 210px;
+    top: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar8 a i {
+    position: absolute;
+    left: 220px;
+    top: 58%;
+}
+
+.nav-bar9 {
+    position: absolute;
+    top: 60%;
+    background-color: white;
+    width: 25%;
+    height: 180px;
+    left: 65%;
+    border: 2px solid black;
+}
+
+.nav-bar9 img {
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    background-color: blue;
+}
+
+.nav-bar9 h1 {
+    position: absolute;
+    left: 210px;
+    top: 20%;
+    color: blue;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar9 h2 {
+    position: absolute;
+    left: 210px;
+    top: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar9 a i {
+    position: absolute;
+    left: 220px;
+    top: 58%;
+}
+
+.header1 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(image/back.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-bar10 {
+    position: absolute;
+    top: -5%;
+    background-color: white;
+    width: 25%;
+    height: 180px;
+    left: 5%;
+    border: 2px solid black;
+}
+
+.nav-bar10 img {
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    background-color: blue;
+}
+
+.nav-bar10 h1 {
+    position: absolute;
+    left: 210px;
+    top: 20%;
+    color: blue;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar10 h2 {
+    position: absolute;
+    left: 210px;
+    top: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar10 a i {
+    position: absolute;
+    left: 220px;
+    top: 58%;
+}
+
+.nav-bar11 {
+    position: absolute;
+    top: -5%;
+    background-color: white;
+    width: 25%;
+    height: 180px;
+    left: 35%;
+    border: 2px solid black;
+}
+
+.nav-bar11 img {
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    background-color: blue;
+}
+
+.nav-bar11 h1 {
+    position: absolute;
+    left: 210px;
+    top: 20%;
+    color: blue;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar11 h2 {
+    position: absolute;
+    left: 210px;
+    top: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar11 a i {
+    position: absolute;
+    left: 220px;
+    top: 58%;
+}
+
+.nav-bar12 {
+    position: absolute;
+    top: -5%;
+    background-color: white;
+    width: 25%;
+    height: 180px;
+    left: 65%;
+    border: 2px solid black;
+}
+
+.nav-bar12 img {
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    background-color: blue;
+}
+
+.nav-bar12 h1 {
+    position: absolute;
+    left: 210px;
+    top: 20%;
+    color: blue;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar12 h2 {
+    position: absolute;
+    left: 210px;
+    top: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar12 a i {
+    position: absolute;
+    left: 220px;
+    top: 58%;
+}
+
+.sh {
+    position: absolute;
+    top: 17%;
+    left: 34%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sh1 {
+    position: absolute;
+    top: 27%;
+    left: 35%;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-13 {
+    position: absolute;
+    top: 34%;
+    left: 5%;
+    width: 1140px;
+    height: 410px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.nav-bar14 {
+    position: absolute;
+    top: 5%;
+    background-color: rgb(57, 14, 250);
+    width: 29%;
+    height: 183px;
+    left: 2%;
+    border: 2px solid black;
+}
+
+.nav-bar14 img {
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    background-color: blue;
+}
+
+.nav-bar14 h1 {
+    position: absolute;
+    left: 200px;
+    top: 18%;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar14 h2 {
+    position: absolute;
+    left: 210px;
+    top: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar14 a i {
+    position: absolute;
+    left: 220px;
+    top: 58%;
+}
+
+.nav-bar15 {
+    position: absolute;
+    top: 5%;
+    background-color: rgb(57, 14, 250);
+    width: 29%;
+    height: 183px;
+    left: 36%;
+    border: 2px solid black;
+}
+
+.nav-bar15 img {
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    background-color: blue;
+}
+
+.nav-bar15 h1 {
+    position: absolute;
+    left: 200px;
+    top: 18%;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar15 h2 {
+    position: absolute;
+    left: 210px;
+    top: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar15 a i {
+    position: absolute;
+    left: 220px;
+    top: 58%;
+}
+
+.nav-bar16 {
+    position: absolute;
+    top: 5%;
+    background-color: rgb(57, 14, 250);
+    width: 29%;
+    height: 183px;
+    left: 70%;
+    border: 2px solid black;
+}
+
+.nav-bar16 img {
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    background-color: blue;
+}
+
+.nav-bar16 h1 {
+    position: absolute;
+    left: 200px;
+    top: 18%;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar16 h2 {
+    position: absolute;
+    left: 210px;
+    top: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-bar16 a i {
+    position: absolute;
+    left: 220px;
+    top: 58%;
+}
+
+.topnav {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background-color: black;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    color: black;
+    display: block;
+    position: absolute;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
